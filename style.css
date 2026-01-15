@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0a0000;
+  font-family: Arial, sans-serif;
+  color:white
+}
+
+.heading {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 32px;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* space for heading */
+}
+
+input[type="text"] {
+  width: 320px;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #f5f3f3;
+  outline: none;
+}
