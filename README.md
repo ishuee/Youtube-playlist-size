@@ -24,5 +24,8 @@ A simple web tool that allows you to analyze any YouTube playlist. It shows the 
 ## Optimizations 
 
 - **Pagination handling:** Fetches all video IDs for playlists longer than 50 videos.
-- **Chunked requests:** Fet
+- **Chunked requests:** Fetches video durations in batches of 50 to stay within API limits.
+- **Async/Await:** Makes API calls efficient and non-blocking, improving user experience.
+- **Thumbnail handling:** Picks the highest resolution thumbnail automatically.
 
+---
